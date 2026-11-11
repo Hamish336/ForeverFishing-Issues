@@ -1,0 +1,31 @@
+name: Report a bug
+description: Tell us what went wrong while using Forever Fishing.
+labels: ["bug"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Forever Fishing version
+      description: 'In the CurseForge app, look for the installed version under My Addons. If you installed manually, check the name of the ZIP you installed. Enter "Not sure" if you can’t find it.'
+      placeholder: '0.9.76 or Not sure'
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened?
+      placeholder: "I heard the splash, but pressing my fishing key didn't reel in."
+    validations:
+      required: true
+  - type: textarea
+    id: activity
+    attributes:
+      label: What were you doing when it happened?
+      placeholder: 'I was fishing in Stormwind with a lure on and using a controller.'
+    validations:
+      required: true
+  - type: textarea
+    id: extras
+    attributes:
+      label: Screenshots, videos, or error messages (optional)
+      description: 'For fishing key or reeling problems, a `/fish trace` captured while the problem is happening can help. You can paste it here. Anything you attach is public.'
