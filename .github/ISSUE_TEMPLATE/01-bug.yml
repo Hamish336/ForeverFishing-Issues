@@ -25,7 +25,17 @@ body:
     validations:
       required: true
   - type: textarea
+    id: diagnostics
+    attributes:
+      label: In-game diagnostics (optional)
+      description: >-
+        If you have a report copied from Forever Fishing, paste it here.
+        For fishing key or reeling problems, you can also paste a `/fish trace`
+        captured while the problem is happening.
+        Reports are public, so remove private details before posting.
+      render: text
+  - type: textarea
     id: extras
     attributes:
       label: Screenshots, videos, or error messages (optional)
-      description: 'For fishing key or reeling problems, a `/fish trace` captured while the problem is happening can help. You can paste it here. Anything you attach is public.'
+      description: 'Anything you attach is public.'
