@@ -6,22 +6,21 @@ body:
     id: version
     attributes:
       label: Forever Fishing version
-      description: 'In the CurseForge app, look for the installed version under My Addons. If you installed manually, check the name of the ZIP you installed. Enter "Not sure" if you can’t find it.'
-      placeholder: 'Your installed version or Not sure'
+      description: 'In WoW, open the AddOns list and hover over Forever Fishing to see its version. You can also check My Addons in the CurseForge app or the name of the ZIP you installed.'
     validations:
       required: true
   - type: textarea
     id: happened
     attributes:
       label: What happened?
-      placeholder: "I heard the splash, but pressing my fishing key didn't reel in."
+      description: 'Describe what you expected to happen and what happened instead.'
     validations:
       required: true
   - type: textarea
     id: activity
     attributes:
       label: What were you doing when it happened?
-      placeholder: 'I was fishing in Stormwind with a lure on and using a controller.'
+      description: 'Tell us what you were doing just before the issue. If you can make it happen again, list the steps.'
     validations:
       required: true
   - type: textarea
