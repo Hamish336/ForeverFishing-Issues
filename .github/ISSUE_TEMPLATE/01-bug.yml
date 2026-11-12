@@ -1,6 +1,6 @@
 name: Report a bug
 description: Tell us what went wrong while using Forever Fishing.
-labels: ["bug"]
+labels: ["bug", "status: unconfirmed"]
 body:
   - type: input
     id: version
