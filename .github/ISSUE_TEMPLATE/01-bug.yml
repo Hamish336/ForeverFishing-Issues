@@ -13,7 +13,7 @@ body:
     id: happened
     attributes:
       label: What happened?
-      description: 'Describe what you expected to happen and what happened instead.'
+      description: 'Please give a detailed description of what happened.'
     validations:
       required: true
   - type: textarea
@@ -26,12 +26,8 @@ body:
   - type: textarea
     id: diagnostics
     attributes:
-      label: In-game diagnostics (optional)
-      description: >-
-        If you have a report copied from Forever Fishing, paste it here.
-        For fishing key or reeling problems, you can also paste a `/fish trace`
-        captured while the problem is happening.
-        Reports are public, so remove private details before posting.
+      label: In-game diagnostics (preferred)
+      description: 'Paste your Forever Fishing diagnostics report here.'
       render: text
   - type: textarea
     id: extras
