@@ -27,7 +27,7 @@ body:
     id: diagnostics
     attributes:
       label: In-game diagnostics (preferred)
-      description: 'Paste your Forever Fishing diagnostics report here.'
+      description: 'Paste your Forever Fishing diagnostics report here. To generate it, open Forever Fishing settings and click **Report a Bug** (coming soon).'
       render: text
   - type: textarea
     id: extras
