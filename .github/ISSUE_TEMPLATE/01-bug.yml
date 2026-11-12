@@ -7,7 +7,7 @@ body:
     attributes:
       label: Forever Fishing version
       description: 'In the CurseForge app, look for the installed version under My Addons. If you installed manually, check the name of the ZIP you installed. Enter "Not sure" if you can’t find it.'
-      placeholder: '0.9.76 or Not sure'
+      placeholder: 'Your installed version or Not sure'
     validations:
       required: true
   - type: textarea
