@@ -1,6 +1,6 @@
 name: Suggest a feature
 description: Share an idea for improving Forever Fishing.
-labels: ["enhancement"]
+labels: ["feature request"]
 body:
   - type: textarea
     id: idea
